@@ -10,6 +10,7 @@ const About = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 animate_animated animatefadeIn animate_delay-1s">
           About Me
+          About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img 
