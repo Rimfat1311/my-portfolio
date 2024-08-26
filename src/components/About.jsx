@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../assets/images/img3.png'
 
 import { FaReact, FaCss3Alt, FaHtml5, FaJs } from 'react-icons/fa'; // Example icons for skills
 
@@ -12,9 +13,9 @@ const About = () => {
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img 
-            src=''
+            src={img}
             alt="About Me" 
-            className="w-full md:w-1/2 h-48 md:h-64 object-cover rounded-lg shadow-lg mb-6 md:mb-0" 
+            className="w-full md:w-1/2 h-64 md:h-64 object-cover rounded-lg shadow-lg mb-6 md:mb-0" 
           />
           <div className="md:w-1/2 bg-[#2C2F33] p-6 rounded-lg shadow-lg">
             <p className="text-lg md:text-xl leading-relaxed mb-4 animate_animated animatefadeIn animate_delay-2s">

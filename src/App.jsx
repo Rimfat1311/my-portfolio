@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from './assets/components/Header'
-import Home from './assets/components/Home'
-import Projects from './assets/components/Projects'
-import Skills from './assets/components/Skills'
-import Contact from './assets/components/Contact'
-import Footer from './assets/components/Footer'
-import About from './assets/components/About'
+import Header from './components/Header'
+import Home from './components/Home'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import About from './components/About'
 
 
 const App = () => {
