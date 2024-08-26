@@ -32,6 +32,8 @@ const Contact = () => {
           </div>
           <button type="submit" className="w-full bg-[#FFC107] text-[#1A1D23] p-3 rounded font-semibold hover:bg-white transition duration-300">
             Send Message
+            Send Message
+
           </button>
         </form>
       </div>
