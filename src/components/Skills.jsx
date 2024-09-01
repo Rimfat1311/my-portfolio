@@ -1,5 +1,9 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt } from 'react-icons/fa';
+import { FaDiagramNext } from 'react-icons/fa6';
+import { FcNext } from 'react-icons/fc';
+import { SiNextdotjs } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 const skills = [
   {
@@ -15,6 +19,7 @@ const skills = [
     items: [
       { name: 'React', icon: <FaReact /> },
       { name: 'Tailwind CSS', icon: <FaCss3Alt /> },
+      { name: 'Next', icon: <SiNextdotjs /> },
     ],
   },
   {
