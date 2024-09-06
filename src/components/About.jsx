@@ -22,8 +22,8 @@ const About = () => {
               With a keen eye for detail and a love for problem-solving, I craft intuitive and engaging user experiences using HTML, CSS, JavaScript, ReactJS, and Tailwind CSS. I enjoy tackling diverse projects, from e-commerce to education, and everything in between.
             </p>
             <p className="text-lg md:text-xl leading-relaxed mb-6 animate_animated animatefadeIn animate_delay-3s">
-              Driven by passion and a strategic approach, my unique blend of technical expertise and creative thinking enables me to deliver high-quality solutions that exceed expectations. As a mentor at Bluehouse Technologies, I'm dedicated to sharing knowledge and empowering others to grow.
-            </p>
+              {/* Driven by passion and a strategic approach, my unique blend of technical expertise and creative thinking enables me to deliver high-quality solutions that exceed expectations. As a mentor at Bluehouse Technologies, I'm dedicated to sharing knowledge and empowering others to grow.
+            </p> */}
             <div className="flex justify-center space-x-4 mb-8">
               <div className="flex flex-col items-center">
                 <FaHtml5 className="text-4xl mb-2" />
