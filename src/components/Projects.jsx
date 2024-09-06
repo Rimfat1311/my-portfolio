@@ -25,6 +25,14 @@ const projects = [
     repoUrl: 'https://github.com/yourusername/project-three',
     technologies: ['React', 'API Integration', 'JavaScript', 'Tailwind CSS'],
   },
+  {
+    title: 'Project Two',
+    description: 'A brief description of Project Two. This project is a task management app built with React and integrated with a REST API.',
+    imageUrl: 'path_to_image_two.jpg',
+    liveUrl: 'https://live-demo-two.com',
+    repoUrl: 'https://github.com/yourusername/project-two',
+    technologies: ['React', 'API Integration', 'JavaScript'],
+  },
   // Add more projects as needed with react routing to avoid to much of buziness on my portfolio
 ];
 
