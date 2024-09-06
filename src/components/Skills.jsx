@@ -19,7 +19,7 @@ const skills = [
     items: [
       { name: 'React', icon: <FaReact /> },
       { name: 'Tailwind CSS', icon: <FaCss3Alt /> },
-      { name: 'Next', icon: <SiNextdotjs /> },
+      // { name: 'Next', icon: <SiNextdotjs /> },
     ],
   },
   {

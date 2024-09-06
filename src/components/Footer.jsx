@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="#home" className="hover:text-white transition duration-300">Home</a>
           <a href="#projects" className="hover:text-white transition duration-300">Projects</a>
           <a href="#skills" className="hover:text-white transition duration-300">Skills</a>
-          <a href="#contact" className="hover:text-white transition duration-300">Contact</a>
+          <a href="#contact" className="hover:text-white transition duration-300">Contact me</a>
         </div>
         <div className="flex justify-center space-x-8 mb-4">
           <a href="https://www.linkedin.com/in/rimfat-timnan-simon" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-white transition duration-300">
