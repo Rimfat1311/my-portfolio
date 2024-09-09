@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-[#1A1D23] text-[#FFC107] p-4 fixed w-full">
+    <header className="bg-blue-950 text-white p-4 fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">Rimfat Timnan Simon</div>
         <nav>
