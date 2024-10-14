@@ -7,7 +7,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#1A1D23] text-[#FFC107] py-8">
+    <footer className="bg-white text-blue-950 py-8 font-bold">
       <div className="container mx-auto px-4 text-center">
         <div className="flex justify-center space-x-8 mb-4">
           <a href="#home" className="hover:text-white transition duration-300">Home</a>

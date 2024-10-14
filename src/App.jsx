@@ -6,9 +6,11 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import About from './components/About'
-
+import CardSection from './components/CardSection'
 
 const App = () => {
+
+
   return (
     <div>
       <Header />
@@ -16,6 +18,10 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
+      <div className="App">
+      <h1 style={{ textAlign: 'center' }}>Testimonials</h1>
+      <CardSection />
+    </div>
       <Contact />
       <Footer />
     </div>

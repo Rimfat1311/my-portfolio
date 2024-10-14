@@ -38,9 +38,9 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-blue-950 text-blue-950 py-12">
+    <section id="projects" className="bg-blue-950 text-blue-950 py-20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">My Projects</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
@@ -50,10 +50,10 @@ const Projects = () => {
               <p className="text-sm mb-4">
                 <strong>Technologies:</strong> {project.technologies.join(', ')}
               </p>
-              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="text-[#FFC107] hover:underline mr-4">
+              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="text-white hover:underline mr-4 bg-blue-900 rounded-full p-2">
                 Live Demo
               </a>
-              <a href={project.repoUrl} target="_blank" rel="noopener noreferrer" className="text-[#FFC107] hover:underline">
+              <a href={project.repoUrl} target="_blank" rel="noopener noreferrer" className="text-white hover:underline bg-blue-900 rounded-full p-2 ">
                 GitHub Repo
               </a>
             </div>

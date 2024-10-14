@@ -33,12 +33,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#1A1D23] text-[#FFC107] py-12">
+    <section id="skills" className="bg-blue-950 text-blue-950 py-20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">Technical Skills</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">Technical Skills</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {skills.map((skillCategory, index) => (
-            <div key={index} className="bg-[#2C2F33] p-6 rounded-lg shadow-lg">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold mb-4">{skillCategory.category}</h3>
               <ul className="grid grid-cols-2 gap-4">
                 {skillCategory.items.map((skill, index) => (

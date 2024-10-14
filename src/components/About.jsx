@@ -1,13 +1,14 @@
 import React from 'react';
-import img from '../assets/images/img3.png'
+// import img from '../assets/images/img3.png'
+import img from '../assets/images/frontend.webp';
 
 import { FaReact, FaCss3Alt, FaHtml5, FaJs } from 'react-icons/fa'; // Example icons for skills
 
 const About = () => {
   return (
-    <section id="about" className="bg-blue-950 text-blue-950 py-12 relative overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-900 to-blue-950 opacity-50"></div>
-      <div className="container mx-auto px-4 text-center relative z-10">
+    <section id="about" className="bg-blue-950 text-blue-950 py-12 overflow-hidden ">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-900 to-blue-950 opacity-50 "></div>
+      <div className="container mx-auto px-4 text-center  z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 animate_animated animatefadeIn animate_delay-1s text-white">
           About Me
         </h2>
@@ -15,7 +16,7 @@ const About = () => {
           <img 
             src={img}
             alt="About Me" 
-            className="w-full md:w-1/2 h-64 md:h-64 object-cover rounded-lg shadow-lg mb-6 md:mb-0" 
+            className="w-full md:w-1/2 h-64 md:h-80 object-cover rounded-lg shadow-lg mb-6 md:mb-0" 
           />
           <div className="md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
             {/* <p className="text-lg md:text-xl leading-relaxed mb-4 animate_animated animatefadeIn animate_delay-2s">
@@ -43,7 +44,7 @@ const About = () => {
                 <p className="text-md">ReactJS</p>
               </div>
             </div>
-            <a href="/resume" className="inline-block bg-[#FFC107] text-[#1A1D23] px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#FFD54F] transition duration-300">
+            <a href="/resume" className="inline-block bg-blue-950 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#FFD54F] transition duration-300">
               Download My Resume
             </a>
           </div>
