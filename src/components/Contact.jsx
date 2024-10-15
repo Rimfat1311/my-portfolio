@@ -13,7 +13,7 @@ const Contact = () => {
           <a href="mailto:rimfat.timnan.simon@example.com" className="text-3xl hover:text-white transition duration-300">
             <FaEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/rimfat-timnan-simon" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-white transition duration-300">
+          <a href='https://www.linkedin.com/in/rimfat-timnan-088a022bb/' target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-white transition duration-300">
             <FaLinkedin />
           </a>
           <a href="https://github.com/rimfat-timnan-simon" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-white transition duration-300">
