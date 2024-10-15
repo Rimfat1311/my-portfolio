@@ -32,7 +32,7 @@ const Card = ({ title }) => {
     <div
       ref={cardRef}
       style={{
-        width: '400px', // Increased width (previously 200px)
+        width: '400px', 
         height: '300px',
         backgroundColor: '#4a90e2',
         borderRadius: '10px',
