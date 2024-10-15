@@ -10,7 +10,7 @@ const Contact = () => {
           I'd love to hear from you! Whether it's a project inquiry or just to connect, feel free to reach out.
         </p>
         <div className="flex justify-center space-x-8 mb-8">
-          <a href="mailto:rimfat.timnan.simon@example.com" className="text-3xl hover:text-white transition duration-300">
+          <a href="https://mail.google.com/mail/u/0/#inbox" className="text-3xl hover:text-white transition duration-300">
             <FaEnvelope />
           </a>
           <a href='https://www.linkedin.com/in/rimfat-timnan-088a022bb/' target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-white transition duration-300">
