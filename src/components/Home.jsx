@@ -15,7 +15,7 @@ const Home = () => {
           Explore My Work
         </a>
       </div>
-      <div className="flex justify-center md:justify-end mt-10 md:mt-0">
+      <div className="flex justify-center md:justify-end mt-20 md:mt-0">
         <img 
           src={img} 
           alt="profile picture" 
