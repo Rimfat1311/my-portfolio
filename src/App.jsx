@@ -19,8 +19,8 @@ const App = () => {
       <Projects />
       <Skills />
       <div className="App">
-      <h1 style={{ textAlign: 'center' }}>Testimonials</h1>
-      <CardSection />
+      {/* <h1 style={{ textAlign: 'center', color:'#172554', }}>System development Methodology *Agile*</h1> */}
+      {/* <CardSection /> */}
     </div>
       <Contact />
       <Footer />

@@ -5,21 +5,24 @@ const CardsSection = () => {
   const cardTitles = ["Testimonial 1", "Testimonial 2", "Testimonial 3", "Testimonial 4"];
 
   // Duplicate the cards for continuous scrolling effect
-  const fullCardTitles = [...cardTitles, ...cardTitles]; 
+  const fullCardTitles = [...cardTitles]; 
 
   return (
     <div
+    
       style={{
         display: 'flex',
-        overflow: 'hidden',
-        // position: 'relative',
+        overflow: '',
+        position: 'static',
         width: '100%',
         whiteSpace: 'nowrap', // Prevent wrapping
       }}
     >
+      
       {fullCardTitles.map((title, index) => (
         <Card key={index} title={title} />
       ))}
+      
     </div>
   );
 };

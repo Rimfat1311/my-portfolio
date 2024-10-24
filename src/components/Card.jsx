@@ -33,14 +33,15 @@ const Card = ({ title }) => {
       ref={cardRef}
       style={{
         width: '400px', 
-        height: '300px',
-        backgroundColor: '#4a90e2',
+        height: '100px',
+        backgroundColor: '#172554',
         borderRadius: '10px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         color: 'white',
         fontSize: '24px',
+        
         margin: '20px',
         boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)',
       }}
