@@ -1,5 +1,4 @@
 import React from 'react';
-// import img from '../assets/images/img3.png'
 import img from '../assets/images/frontend.webp';
 
 import { FaReact, FaCss3Alt, FaHtml5, FaJs } from 'react-icons/fa'; // Example icons for skills
