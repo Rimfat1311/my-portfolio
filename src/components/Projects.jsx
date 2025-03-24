@@ -6,9 +6,9 @@ const projects = [
     title: 'Project One',
     description: 'A brief description of Project One. This project involves creating a responsive news-blog website using React and Tailwind CSS.',
     imageUrl: 'https://res.cloudinary.com/dderwjbjk/image/upload/v1742722380/Screenshot_2024-11-08_090750_v7zznw.png',
-    liveUrl: 'https://news-homepage-rimfat.vercel.app',
-    repoUrl: 'https://github.com/Rimfat1311/news-homepage',
-    technologies: ['React', 'Tailwind CSS', 'JavaScript'],
+    liveUrl: 'https://tech-fest2024-psi.vercel.app/',
+    repoUrl: 'https://github.com/bluehouseng/tech-fest2024',
+    technologies: ['Nextjs', 'Tailwind CSS', 'JavaScript'],
   },
 
 
@@ -23,21 +23,21 @@ const projects = [
 
   {
     title: 'Project Three',
-    description: 'A brief description of Project Two. This project is a task management app built with React and integrated with a REST API.',
+    description: 'A brief description of Project Two. This project is a Global Country Data Platform built with React and integrated with a REST API.',
     imageUrl: 'https://res.cloudinary.com/dderwjbjk/image/upload/v1742722642/project1_mlfxgg.png',
-    liveUrl: 'https://live-demo-two.com',
-    repoUrl: 'https://github.com/yourusername/project-two',
-    technologies: ['React', 'API Integration', 'JavaScript'],
+    liveUrl: 'https://country-rimfat.vercel.app/',
+    repoUrl: 'https://github.com/Rimfat1311/country',
+    technologies: ['React', 'API Integration', 'Tailwind CSS'],
   },
   {
     title: 'Project Four',
-    description: 'A brief description of Project Two. This project is a task management app built with React and integrated with a REST API.',
+    description: 'A brief description of Project Two. This project is a todo list app built with React and tailwind css.',
     imageUrl: 'https://res.cloudinary.com/dderwjbjk/image/upload/v1742723304/Screenshot_2024-10-17_025719_trcbvt.png',
     liveUrl: 'https://todo-list-app-delta-five.vercel.app/',
-    repoUrl: 'https://github.com/yourusername/project-two',
-    technologies: ['React', 'Tailwind css'],
+    repoUrl: 'https://github.com/Rimfat1311/todo-list-app',
+    technologies: ['React', 'Tailwind CSS'],
   },
-  // Add more projects as needed with react routing to avoid to much of buziness on my portfolio
+
 ];
 
 const Projects = () => {
