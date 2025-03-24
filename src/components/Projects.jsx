@@ -4,7 +4,7 @@ import React from 'react';
 const projects = [
   {
     title: 'Project One',
-    description: 'A brief description of Project One. This project involves creating a responsive news-blog website using React and Tailwind CSS.',
+    description: 'A brief description of Project One. This project involves creating a responsive tech event website using React and Tailwind CSS.',
     imageUrl: 'https://res.cloudinary.com/dderwjbjk/image/upload/v1742722380/Screenshot_2024-11-08_090750_v7zznw.png',
     liveUrl: 'https://tech-fest2024-psi.vercel.app/',
     repoUrl: 'https://github.com/bluehouseng/tech-fest2024',
