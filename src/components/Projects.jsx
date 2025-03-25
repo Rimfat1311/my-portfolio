@@ -12,14 +12,6 @@ const projects = [
   },
 
   {
-    title: 'Project One',
-    description: 'A brief description of Project One. This project involves creating a responsive news-blog website using React and Tailwind CSS.',
-    imageUrl: 'https://res.cloudinary.com/dderwjbjk/image/upload/v1742722380/Screenshot_2024-11-08_090750_v7zznw.png',
-    liveUrl: 'https://tech-fest2024-psi.vercel.app/',
-    repoUrl: 'https://github.com/bluehouseng/tech-fest2024',
-    technologies: ['Nextjs', 'Tailwind CSS', 'JavaScript'],
-  },
-  {
     title: 'Project Two',
     description: 'A brief description of Project One. This project involves creating a responsive news-blog website using React and Tailwind CSS.',
     imageUrl: 'https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/pegqgyz9hsj11urrxpfj.jpg',
